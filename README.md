@@ -6,4 +6,7 @@ To run docker compose
 
 cd compose && docker-compose up --build -d
 
+To stop docker container
+
+cd compose && docker-compose down
 ```
