@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+    webapp:
+       image: nginx
+       build: 
+         context: ../image
+       ports:
+          - "80:80"
+       container_name: nginx 
+
